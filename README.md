@@ -1,13 +1,14 @@
 # Artificial-Life-Simulator
 Java
 
-•	3 agents: carnivore, herbivore, and grass
+•	Simulate environment which consists of carnivore, herbivore, and grass
 
-•	Text printed simulation result for each cycle
+•	All creators have energy, maximum life and age; agents can move, eat, reproduce and die according to their type
 
 •	Text printed simulation result for each cycle
 
 •	Technologies: Java 8, IntelliJ IDEA
+
 
 ![Main](http://f.cl.ly/items/04143j3n3w0R2S1L0P19/1.gif)
 
