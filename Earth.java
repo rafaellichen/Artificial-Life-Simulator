@@ -114,7 +114,7 @@ public class Earth implements Serializable{
             for(int j=0; j<30; j++) {
                 if(earth[i][j].getNum()>=2 && earth[i][j].getMoved()==0) {
                     int temp=energy(5);
-                    if(earth[i][j].getEnergy()-temp>0) {
+                    if(earth[i][j].getEnergy()-temp>=0) {
                         getCells(i,j);
                         int rand=0;
                         for(int b=0; b<4; b++) {
@@ -351,7 +351,7 @@ public class Earth implements Serializable{
         for(int i=0; i<30; i++) {
             for(int j=0; j<30; j++) {
                 int temp=energy(10);
-                if(earth[i][j].getEnergy()-temp>0) {
+                if(earth[i][j].getEnergy()-temp>=0) {
                     if((earth[i][j].getAge()>7 ) && earth[i][j].getNum()==2) {
                         helpReproduce(i,j);
                         helpReproduce(i,j);
