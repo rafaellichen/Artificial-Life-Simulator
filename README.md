@@ -8,6 +8,3 @@ Java
 •	Text printed simulation result for each cycle
 
 •	Technologies: Java 8, IntelliJ IDEA
-
-## Things to improve
-Runtime: remember the location of herbivores & carnivores on the map; runtime changes from O(N^2) to O(N)
