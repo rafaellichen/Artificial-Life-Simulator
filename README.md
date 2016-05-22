@@ -1,13 +1,16 @@
 # Artificial-Life-Simulator
 Java
 
-•	Simulate environment which consists of carnivore, herbivore, and grass
+•	Automatically simulate full cycles of an ecosystem which consists of carnivore, herbivore, and grass
 
-•	All creators have energy, maximum life and age; agents can move, eat, reproduce and die according to their type
+•	As a simulator, the program doesn't require any human intervention after characters have been set
+
+•	All characters have 3 life attributes: energy, time to live, and current age. All of them can perform 4 actions: move, eat, reproduce and die
 
 •	Text printed simulation result for each cycle
 
 •	Technologies: Java 8, IntelliJ IDEA
+
 
 
 ![Main](http://f.cl.ly/items/04143j3n3w0R2S1L0P19/1.gif)
