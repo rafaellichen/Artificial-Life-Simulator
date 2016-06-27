@@ -15,6 +15,7 @@ public class Simulation {
         System.out.println("Initial state:");
         earth.printEarth();
         while(true) {
+            if(time<=0) break;
             earth.resetAttribute();
             earth.growGrass();
             earth.Eat();
@@ -27,7 +28,6 @@ public class Simulation {
             System.out.println("Cycle: "+round);
             time-=1;
             if(earth.Count()) break;
-            if(time<=0) break;
             earth.printEarth();
             Thread.sleep(400);
         }
