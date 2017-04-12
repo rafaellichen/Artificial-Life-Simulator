@@ -1,5 +1,4 @@
 # Artificial-Life-Simulator
-Java
 
 •	Automatically simulate full cycles of an ecosystem which consists of carnivore, herbivore, and grass
 
